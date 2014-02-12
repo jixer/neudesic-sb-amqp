@@ -1,0 +1,1 @@
+C:\Users\myers_000\Documents\visual studio 2012\Projects\github\neudesic-sb-amqp\SRC\MAIN\CSharp\MessageReceive\bin\Debug\Neudesic.Demo.SBAMQP.App.MessageReceive.exe.config
