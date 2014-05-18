@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6A479F8E-C785-4FD0-A3F8-F250B73DCF37</string>
+	<key>IDESourceControlProjectName</key>
+	<string>amqp.poc</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>554C26BA-E74D-40B6-BC69-E749672A03FB</key>
+		<string>https://github.com/jixer/neudesic-sb-amqp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SRC/C++/XCode/amqp.poc/amqp.poc.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>554C26BA-E74D-40B6-BC69-E749672A03FB</key>
+		<string>../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jixer/neudesic-sb-amqp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>554C26BA-E74D-40B6-BC69-E749672A03FB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>554C26BA-E74D-40B6-BC69-E749672A03FB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>neudesic-sb-amqp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
