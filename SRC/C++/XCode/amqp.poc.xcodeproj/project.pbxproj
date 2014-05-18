@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		8300CFFE19280D280088AAC1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8300CFFD19280D280088AAC1 /* main.cpp */; };
 		8300D00019280D280088AAC1 /* amqp_poc.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8300CFFF19280D280088AAC1 /* amqp_poc.1 */; };
+		83766F8119297FCC00193C74 /* libqpid-proton.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83766F7E19297FCC00193C74 /* libqpid-proton.2.0.0.dylib */; };
+		83766F8219297FCC00193C74 /* libqpid-proton.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83766F7F19297FCC00193C74 /* libqpid-proton.2.dylib */; };
+		83766F8319297FCC00193C74 /* libqpid-proton.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83766F8019297FCC00193C74 /* libqpid-proton.dylib */; };
+		83766F8419297FD600193C74 /* libqpid-proton.2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83766F7E19297FCC00193C74 /* libqpid-proton.2.0.0.dylib */; };
+		83766F8519297FD600193C74 /* libqpid-proton.2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83766F7F19297FCC00193C74 /* libqpid-proton.2.dylib */; };
+		83766F8619297FD600193C74 /* libqpid-proton.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 83766F8019297FCC00193C74 /* libqpid-proton.dylib */; };
 		83A27D121928307B0056F5E5 /* AmqpWrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A27D101928307B0056F5E5 /* AmqpWrapper.cpp */; };
 /* End PBXBuildFile section */
 
@@ -19,6 +25,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				83766F8419297FD600193C74 /* libqpid-proton.2.0.0.dylib in CopyFiles */,
+				83766F8519297FD600193C74 /* libqpid-proton.2.dylib in CopyFiles */,
+				83766F8619297FD600193C74 /* libqpid-proton.dylib in CopyFiles */,
 				8300D00019280D280088AAC1 /* amqp_poc.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -29,9 +38,9 @@
 		8300CFFA19280D280088AAC1 /* amqp.poc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = amqp.poc; sourceTree = BUILT_PRODUCTS_DIR; };
 		8300CFFD19280D280088AAC1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		8300CFFF19280D280088AAC1 /* amqp_poc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = amqp_poc.1; sourceTree = "<group>"; };
-		831565871928434300897AB3 /* libqpid-proton.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libqpid-proton.dylib"; path = "../../../../../usr/lib64/libqpid-proton.dylib"; sourceTree = "<group>"; };
-		831565891928434700897AB3 /* libqpid-proton.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libqpid-proton.2.dylib"; path = "../../../../../usr/lib64/libqpid-proton.2.dylib"; sourceTree = "<group>"; };
-		8315658B1928434900897AB3 /* libqpid-proton.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libqpid-proton.2.0.0.dylib"; path = "../../../../../usr/lib64/libqpid-proton.2.0.0.dylib"; sourceTree = "<group>"; };
+		83766F7E19297FCC00193C74 /* libqpid-proton.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libqpid-proton.2.0.0.dylib"; path = "../../../lib/libqpid-proton.2.0.0.dylib"; sourceTree = "<group>"; };
+		83766F7F19297FCC00193C74 /* libqpid-proton.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libqpid-proton.2.dylib"; path = "../../../lib/libqpid-proton.2.dylib"; sourceTree = "<group>"; };
+		83766F8019297FCC00193C74 /* libqpid-proton.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libqpid-proton.dylib"; path = "../../../lib/libqpid-proton.dylib"; sourceTree = "<group>"; };
 		83A27D101928307B0056F5E5 /* AmqpWrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AmqpWrapper.cpp; sourceTree = "<group>"; };
 		83A27D111928307B0056F5E5 /* AmqpWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmqpWrapper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -41,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83766F8119297FCC00193C74 /* libqpid-proton.2.0.0.dylib in Frameworks */,
+				83766F8219297FCC00193C74 /* libqpid-proton.2.dylib in Frameworks */,
+				83766F8319297FCC00193C74 /* libqpid-proton.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,9 +62,9 @@
 		8300CFF119280D280088AAC1 = {
 			isa = PBXGroup;
 			children = (
-				8315658B1928434900897AB3 /* libqpid-proton.2.0.0.dylib */,
-				831565891928434700897AB3 /* libqpid-proton.2.dylib */,
-				831565871928434300897AB3 /* libqpid-proton.dylib */,
+				83766F7E19297FCC00193C74 /* libqpid-proton.2.0.0.dylib */,
+				83766F7F19297FCC00193C74 /* libqpid-proton.2.dylib */,
+				83766F8019297FCC00193C74 /* libqpid-proton.dylib */,
 				8300CFFC19280D280088AAC1 /* amqp.poc */,
 				8300CFFB19280D280088AAC1 /* Products */,
 			);
@@ -231,6 +243,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/lib64,
+					"/Users/chris/Documents/Share/dev/neudesic-sb-amqp/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -242,6 +255,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					/usr/lib64,
+					"/Users/chris/Documents/Share/dev/neudesic-sb-amqp/lib",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
